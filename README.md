@@ -3,7 +3,7 @@ Real time Face Detection using OpenCV with Java (This code is not compatible wit
 
 ![Alt text](http://s1.postimg.org/g9zf0ks1b/face_detection.jpg "Real Time Face Detection")
 
-#Note:
+# Note:
 
 to use this code with Opencv 3 see this issue
 
