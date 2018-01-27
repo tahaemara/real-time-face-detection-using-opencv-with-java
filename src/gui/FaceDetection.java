@@ -3,7 +3,7 @@
 // WebSite : www.Emaraic.com
 // E-mail  : taha@emaraic.com
 //
-//                   Real time face detection using OpenCV with Java
+//                   Realtime face detection using OpenCV with Java
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -33,7 +33,6 @@ import org.opencv.objdetect.CascadeClassifier;
  */
 public class FaceDetection extends javax.swing.JFrame {
 ///
-
     private DaemonThread myThread = null;
     int count = 0;
     VideoCapture webSource = null;
@@ -71,7 +70,8 @@ public class FaceDetection extends javax.swing.JFrame {
                                 }
                             }
                         } catch (Exception ex) {
-                            System.out.println("Error");
+                            System.out.println("Error!!");
+                            ex.printStackTrace();
                         }
                     }
                 }
